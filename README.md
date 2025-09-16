@@ -2,7 +2,7 @@ Update .gitignore as project is expanded so as not to commit certain files which
 
 Note: Backend NEEDS .venv as it keeps Python packages separate from system packages and global packages
 
-**To Implement VENV and run backend**
+**To Implement VENV and run backend** <br>
 cd backend
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
