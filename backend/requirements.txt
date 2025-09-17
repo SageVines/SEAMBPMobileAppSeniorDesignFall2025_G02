@@ -4,11 +4,14 @@ uvicorn===0.30.1 # ASGI for running FastAPI app
 python-dotenv==1.0.1 # Reafs .env into environment variables
 pydantic==2.7.1 # Defines data models for requests and responses 
 pydantic-settings==2.2.1 # Bundles .env with settings
+python-jose==3.3.0 # For object signing and encryption (JSON)
+python-multipart==0.0.9 # For handling multiple types of data
 passlib[bcrypt]==1.7.4 # handles password hashing
 PyJWT==2.8.0 # Implements JSON web tokens for authentication use
 numpy==1.26.4 # provides operations numerically
 tensorflow==2.15.0 # Keras Machine Learning 
 google-cloud-firestore==2.15.0 # Firestore for storing username, email, password hash
 google-api-python-client==2.130.0 # Used to talk to Google Healthcare API (FHIR)
-google-auth-httplib==0.2.0 # Service authentication handling for HTTPS calls to Google APIs
+google-auth-httplib2==0.2.0 # Service authentication handling for HTTPS calls to Google APIs
 google-auth-oauthlib==1.2.0 # For connecting through Google Identity (Not service account)
+requests==2.32.3 # For HTTPS calls 
