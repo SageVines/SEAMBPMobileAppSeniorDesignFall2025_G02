@@ -1,0 +1,1 @@
+# File talks to Firestore for account data (username, email, password hash)

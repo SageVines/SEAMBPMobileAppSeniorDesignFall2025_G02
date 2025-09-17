@@ -1,0 +1,1 @@
+# File loads .env configs into a settings class (SECRET_KEY, GCP_PROJECT_ID, etc.)

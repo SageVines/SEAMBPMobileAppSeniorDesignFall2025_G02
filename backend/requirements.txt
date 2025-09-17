@@ -1,3 +1,4 @@
+# File contains python dependencies
 # Version-locked for stability testing
 fastapi==0.111.0 # Web framework
 uvicorn===0.30.1 # ASGI for running FastAPI app

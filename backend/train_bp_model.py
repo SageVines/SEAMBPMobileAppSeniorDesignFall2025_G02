@@ -1,0 +1,1 @@
+# Script which will train CNN + LSTM model and save it as bp_model.h5

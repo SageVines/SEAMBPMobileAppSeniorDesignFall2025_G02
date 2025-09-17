@@ -1,0 +1,1 @@
+# File holds pydantic schemas for response/request validation like for users or events
