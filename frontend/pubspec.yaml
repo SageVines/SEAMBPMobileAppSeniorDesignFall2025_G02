@@ -94,30 +94,23 @@ description: A Flutter health app for blood pressure measurement and monitoring.
 version: 1.0.0+1
 
 environment:
-  sdk: 3.9.2
+  sdk: ">=3.3.0 <4.4.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
-provider: ^6.1.2 # For state managements
-
-http: ^1.2.0 # For HTTP/HTTPS requests
-
-web_socket_channel: ^2.4.0 # For websocket support
-
-intl: ^0.19.0 # For date/timestamp formatting
-
-flutter_material_pickers: ^5.1.0 # potential modern UI components
-
-fl_chart: ^0.69.0 # For charts and graphs
-
-cupertino_icons: ^1.0.8 # SDK libraries for flutter
+  provider: ^6.1.2 # For state managements
+  http: ^1.2.1 # For HTTP/HTTPS requests
+  web_socket_channel: ^3.0.3 # For websocket support
+  intl: ^0.20.2 # For date/timestamp formatting
+  flutter_material_pickers: ^5.1.0 # potential modern UI components
+  fl_chart: ^1.1.1 # For charts and graphs
+  cupertino_icons: ^1.0.8 # SDK libraries for flutter
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
