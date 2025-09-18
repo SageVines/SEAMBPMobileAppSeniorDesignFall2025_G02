@@ -13,9 +13,15 @@ Note: DO NOT COMMIT VENV <br>
 
 **For frontend** <br>
 - only lib files are used <br>
-- flutter pub outdated
-- flutter pub upgrade --major-versions
-- flutter pub get
+- flutter pub outdated <br>
+- flutter pub upgrade --major-versions <br>
+- flutter pub get <br>
+- flutter devices <br>
+- flutter emulators <br>
+- where flutter <br>
+- flutter doctor <br>
+
+- After Starting up phone emulator, use command: "flutter run -d emulator-5554" in terminal while cd'd into front end directory <br>
 
 
 **For Machine Learning** <br>
@@ -30,6 +36,8 @@ Note: DO NOT COMMIT VENV <br>
 - .\venv\Scripts\activate <br>
 -  py -m venv venv  <br>
 - flutter run <br>
+- python -m pip install --upgrade pip <br>
+- flutter --version <br>
 
 
 **Notes** <br>
