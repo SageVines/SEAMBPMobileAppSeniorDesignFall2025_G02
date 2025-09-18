@@ -9,6 +9,11 @@ py -3.12 -m venv .venv <br>
 pip install -r requirements.txt <br>
 uvicorn app.main:app --reload <br>
 
-Note: DO NOT COMMIT VENV
+Note: DO NOT COMMIT VENV <br>
 
-- For frontend, only lib files are used
+**For frontend** <br>
+- only lib files are used <br>
+
+
+**For Machine Learning** <br>
+- pip install tensorflow <br>
