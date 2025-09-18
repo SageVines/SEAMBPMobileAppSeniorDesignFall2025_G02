@@ -10,3 +10,5 @@ pip install -r requirements.txt <br>
 uvicorn app.main:app --reload <br>
 
 Note: DO NOT COMMIT VENV
+
+- For frontend, only lib files are used
