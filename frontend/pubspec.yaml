@@ -88,7 +88,7 @@
 #   # For details regarding fonts from package dependencies,
 #   # see https://flutter.dev/to/font-from-package
 
-#Flutter dependencies
+# File holds Flutter dependencies
 name: bp_health
 description: A Flutter health app for blood pressure measurement and monitoring. 
 version: 1.0.0+1
