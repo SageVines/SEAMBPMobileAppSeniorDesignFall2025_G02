@@ -203,3 +203,4 @@ secrets.json
 
 # Firestore / FHIR service account
 serviceAccountKey.json
+google-services.json
