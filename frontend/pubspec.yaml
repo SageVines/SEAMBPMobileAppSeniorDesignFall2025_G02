@@ -109,18 +109,18 @@ dependencies:
   firebase_core: ^4.1.0
   firebase_auth: ^6.0.2
   cloud_firestore: ^6.0.1
-  google_sign_in: ^7.2.0 # For potential Google sign-in
+  google_sign_in: ^6.2.1 # For potential Google sign-in
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
 
-transitive dependencies:
-  characters: ^1.4.1
-  material_color_utilities: ^0.13.0
-  meta: ^1.17.0
-  test_api: ^0.7.7
+# transitive dependencies:
+#   characters: ^1.4.1
+#   material_color_utilities: ^0.13.0
+#   meta: ^1.17.0
+#   test_api: ^0.7.7
 
 flutter:
   uses-material-design: true
