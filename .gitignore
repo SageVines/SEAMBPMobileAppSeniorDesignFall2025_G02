@@ -200,3 +200,6 @@ pyrightconfig.json
 *.secret
 *.keys
 secrets.json
+
+# Firestore / FHIR service account
+serviceAccountKey.json
