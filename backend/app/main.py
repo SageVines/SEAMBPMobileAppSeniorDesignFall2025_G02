@@ -1,9 +1,8 @@
-# FastAPI entrypoint (defines API endpoints)
+from fastapi import FastAPI, Depends
+from app.authorize import verify_firetoken
 
-from fastapi import FASTAPI
+app = FastAPI()
 
-app = FASTAPI()
-
-@app.get("/")
-def home():
-    return {"status": "Backend running on App Engine!"}
+@app.get("/secure")
+def secure_endpoint(user=Depends(verify_firetoken)):
+    return {"uid": user["uid"], "email": user.get("email")}
