@@ -11,8 +11,10 @@ passlib[bcrypt]==1.7.4 # handles password hashing
 PyJWT==2.8.0 # Implements JSON web tokens for authentication use
 numpy==1.26.4 # provides operations numerically
 tensorflow==2.15.0 # Keras Machine Learning 
-google-cloud-firestore==2.15.0 # Firestore for storing username, email, password hash
+firebase-admin # For token authentication
+google-cloud-firestore==2.15.0 # Firestore for storing username, email, password hash (potentially)
 google-api-python-client==2.130.0 # Used to talk to Google Healthcare API (FHIR)
 google-auth-httplib2==0.2.0 # Service authentication handling for HTTPS calls to Google APIs
 google-auth-oauthlib==1.2.0 # For connecting through Google Identity (Not service account)
+google-cloud-healthcare # For Google Cloud healthcare services
 requests==2.32.3 # For HTTPS calls 

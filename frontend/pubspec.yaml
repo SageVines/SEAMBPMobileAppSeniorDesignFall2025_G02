@@ -103,18 +103,24 @@ dependencies:
   http: ^1.2.1 # For HTTP/HTTPS requests
   web_socket_channel: ^3.0.3 # For websocket support
   intl: ^0.20.2 # For date/timestamp formatting
-  flutter_material_pickers: ^5.1.0 # potential modern UI components
+  #flutter_material_pickers: ^3.7.0 # potential modern UI components
   fl_chart: ^1.1.1 # For charts and graphs
   cupertino_icons: ^1.0.8 # SDK libraries for flutter
-  firebase_core: ^latest
-  firebase_auth: ^latest
-  cloud_firestore: ^latest
-  google_sign_in: ^latest # For potential Google sign-in
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  google_sign_in: ^7.2.0 # For potential Google sign-in
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^latest
+  flutter_lints: ^6.0.0
+
+transitive dependencies:
+  characters: ^1.4.1
+  material_color_utilities: ^0.13.0
+  meta: ^1.17.0
+  test_api: ^0.7.7
 
 flutter:
   uses-material-design: true
